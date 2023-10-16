@@ -1,0 +1,37 @@
+
+
+/*Variables*/
+$main-color: #1b2896;
+
+@mixin main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px
+}
+
+.contact {
+    @include main;
+
+    &__title {
+        text-align: center;
+        font-size: 48px;
+        color: $main-color;
+        font-weight: lighter;
+        padding-bottom: 25px;
+
+        @media (max-width: 767.98px) {
+            font-size: 28px;
+            height: 40px;
+        }
+    }
+    &__text  {
+        text-align: center;
+        color: $main-color;
+        @media (max-width: 767.98px) {
+            text-align: center;
+        }    
+    }
+}
+
+

@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/*Contient le style du body (général), header, footer*/
+/*Variables*/
+/*Body général*/
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+@media (max-width: 767.98px) {
+  * {
+    font-size: 14px;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Header*/
+header {
+  padding: 25px 15px 25px 20px;
+  display: flex;
+  text-decoration: none;
+}
+@media (max-width: 767.98px) {
+  header {
+    padding: 10px 10px 10px 0;
+  }
+}
+header .header__logo {
+  width: 6%;
+}
+@media (max-width: 767.98px) {
+  header .header__logo {
+    width: 12%;
+    height: 50px;
+  }
+}
+header nav {
+  width: 92%;
+  display: inline-block;
+  justify-content: center;
+}
+@media (max-width: 1024px) {
+  header nav {
+    padding-right: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    padding-left: 5px;
+  }
+}
+header li {
+  display: flex;
+  justify-content: flex-end;
+  gap: 90px;
+}
+@media (max-width: 767.98px) {
+  header li {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+  }
+}
+header a {
+  text-decoration: none;
+  color: #1b2896;
+  padding: 25px 0 5px 0px;
+}
+@media (max-width: 767.98px) {
+  header a {
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+}
+header a:hover {
+  border-bottom: 2px solid #1b2896;
+}
+
+/*Footer*/
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+footer .footer__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 767.98px) {
+  footer {
+    width: 100%;
+  }
+}
+footer img {
+  width: 9%;
+  padding: 25px;
+}
+@media (max-width: 767.98px) {
+  footer img {
+    width: 12%;
+    padding: 25px 25px 5px 25px;
+  }
+}
+@media (max-width: 767.98px) {
+  footer p {
+    font-size: 12px;
+    margin-bottom: 30px;
+    width: 60%;
+    text-align: center;
+  }
+}/*# sourceMappingURL=header-footer.css.map */

@@ -1,0 +1,138 @@
+
+/*Contient le style du banner (page about) et les buttons collapse*/
+
+/*Main et banner du about*/
+
+/*Variables*/
+$main-color: #1b2896;
+$white-text: white;
+$text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+
+@mixin main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__about {
+    @include main;
+    padding: 10px;
+    text-align: center;
+
+    @media (max-width: 767.98px) {
+    padding: 0;
+    }
+
+    h1 {
+      height: 54px; 
+      position:absolute;
+      top: 95px;
+      left: 20px;
+      padding-right: 10px;
+
+      @media (max-width: 767.98px) {
+        position: absolute;
+        top: 101px;
+        left: 15px;
+        padding-bottom: 35px;
+        padding-right: 140px; 
+        }
+    }
+}
+
+/*Buttons de collapse*/
+
+.collapse {
+    margin-top: 25px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;  
+
+    &__button {
+      width: 84%;
+      padding: 12px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: $white-text;
+      background-color: $main-color;
+      cursor: pointer;
+      border: none;
+      outline: none;
+
+      @media (max-width: 1024px) {
+        width: 95%;
+      }
+
+      @media (max-width: 767.98px) {
+        width: 94%;
+        height: 30px;
+        font-size: 14px;
+        }
+    }
+
+    &__icon {
+      font-size: 32px;
+
+      @media (max-width: 767.98px) {
+        font-size: 12px;
+        }
+
+        &.collapsed {
+          transition: all 0.5s ease-in-out;
+          transform: rotate(0deg);
+        }
+
+        &.expanded {
+          transition: all 0.5s ease-in-out;
+          transform: rotate(-180deg);
+        }
+    }
+  
+    &__content {
+      width: 85%;
+      font-size: 16px;
+      opacity:0;
+      max-height: 0;
+      margin: 0 auto;
+      text-align:left;
+      padding: 12px;
+      color: $main-color;
+      border-radius: 5px;
+      transition: all 0.5s ease-in-out;
+
+      @media (max-width: 767.98px) {
+        padding:0;
+        font-size:14px;
+      }
+      
+      &.expanded {
+        max-height: 700px;
+        opacity: 1;
+        transition: all 0.7s ease-in-out;
+        padding:5px;  
+
+        padding: 0px;
+
+            p {
+                padding: 5px 0 5px 10px;
+                font-size: 18px;
+                width: 95%;
+
+                @media (max-width: 767.98px) {
+                  font-size: 14px;
+                  width: 90%;
+                  }
+            }
+      }       
+    }
+}
+
+
+
+
+
+

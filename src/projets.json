@@ -1,0 +1,161 @@
+[
+	{
+		"id": "1",
+		"title": "Booki",
+		"cover": "https://i.imgur.com/pPFXrnr.png",
+		"pictures": [
+			"https://i.imgur.com/pPFXrnr.png",
+			"https://i.imgur.com/NDPfyCw.jpg",
+			"https://i.imgur.com/Nar2NqD.jpg",
+			"https://i.imgur.com/jXyVLbH.jpg",
+			"https://i.imgur.com/nzD77st.jpg",
+			"https://i.imgur.com/cg0TZvt.jpg",
+			"https://i.imgur.com/ySMHZc2.jpg",
+			"https://i.imgur.com/GVPeCTr.jpg",
+			"https://i.imgur.com/Y3NZbr6.jpg"
+		],
+		"description": [
+			"Ce deuxième projet de la formation d'OpenClassrooms avait pour objectif de recréer la page d'accueil de l'agence de voyages Booki en utilisant les langages HTML et CSS pour les versions desktop, tablette et mobile.",
+			"En me basant sur la maquette Figma, j'ai commencé par diviser les différentes parties qui composent le site web, puis j'ai créé le code étape par étape de manière à ce qu'il s'adapte fidèlement aux modèles fournis.",
+			"Il est également important de noter que c'était ma première expérience avec d'autres outils tels que VS Code, Git et Github."
+		],
+		"subtitle": "Création de la page d'accueil d'une agence de voyage avec HTML et CSS",
+		"skills": [
+			"Implémenter une interface responsive avec HTML et CSS",
+			"Intégrer du contenu conformément à une maquette avec HTML et CSS",
+			"Versionner son projet avec Git et Github",
+			"Installer un environnement de développement front-end"
+		],
+		"tags": [
+			"HTML",
+			"CSS",
+			"Github"
+		]
+	},
+	{
+		"id": "2",
+		"title": "Sophie Bleuel",
+		"cover": "https://i.imgur.com/foyjoOi.png",
+		"pictures": [
+			"https://i.imgur.com/c9Ltp5v.jpg",
+			"https://i.imgur.com/rxzSaQD.jpg",
+			"https://i.imgur.com/esP8H63.jpg",
+			"https://i.imgur.com/7ag29bY.jpg",
+			"https://i.imgur.com/Nz6XhcW.jpg"
+		],
+		"description": [
+			"L'objectif du troisième projet de la formation d'OpenClassrooms était de créer le site web dynamique de l'architecte d'intérieur Sophie Bleuel en utilisant les langages HTML, CSS et Javascript.",
+			"Une fois de plus, en me basant sur la maquette Figma, j'ai dû développer la page de présentation des travaux de l'architecte, ainsi que la page de connexion de l'administrateur du site et une modale permettant de visualiser, ajouter et supprimer de nouveaux projets de l’architecte.",
+			"Il était particulièrement important de prêter attention aux instructions fournies par l'API pour accomplir les différentes opérations requises."
+		],
+		"subtitle": "Création d'une page web avec Javascript",
+		"skills": [
+			"Gérer les événements utilisateurs avec JavaScript",
+			"Manipuler les éléments du DOM avec JavaScript",
+			"Récupérer les données utilisateurs dans le JavaScript via des formulaires"
+		],
+		"tags": [
+			"HTML",
+			"CSS",
+			"Javascript",
+			"Github"
+		]
+	},
+	{
+		"id": "3",
+		"title": "Nina Carducci",
+		"cover": "https://i.imgur.com/c811mAi.png",
+		"pictures": [
+			"https://i.imgur.com/G5eLdYE.jpg",
+			"https://i.imgur.com/v0QmVPa.jpg",
+			"https://i.imgur.com/lTW7S7a.jpg",
+			"https://i.imgur.com/shjbUGH.jpg",
+			"https://i.imgur.com/vLAeLxo.jpg",
+			"https://i.imgur.com/PGhHL50.jpg",
+			"https://i.imgur.com/yZ1m66x.jpg"
+		],
+		"description": [
+			"Le cinquième projet de la formation d'OpenClassrooms consistait à optimiser le site web de la photographe Nina Carducci. Les modifications apportées peuvent être résumées en deux axes principaux : d'une part, l'amélioration des performances, du référencement (SEO) et de l'accessibilité, et d'autre part, le débogage des fonctions.",
+			"Le premier axe comprenait la réorganisation de l'architecture sémantique du code, la compression, l'adaptation à différentes échelles et l'ajout de titres et de descriptions aux images, le réglage du contraste et l'adoption d'une langue pour le site web.",
+			"Le deuxième axe consistait à corriger la navigation dans la modale de la galerie de photos et l'affichage des catégories de filtres sélectionnées.",
+			"Ce projet, qui impliquait la rédaction d'un rapport d'intervention, m'a non seulement donné l'occasion de découvrir de nouveaux outils tels que Lighthouse, Wave et Google Rich Snippets, mais aussi d'obtenir un aperçu des relations avec un client."
+		],
+		"subtitle": "Débug et optimisation d'un site de photographe",
+		"skills": [
+			"Optimiser les performances d’un site web",
+			"Débugger un site web grâce aux Chrome DevTools",
+			"Rédiger un cahier de recette pour tester un site"
+		],
+		"tags": [
+			"Javascript",
+			"SEO",
+			"Lighthouse",
+			"Wave"
+		]
+	},
+	{
+		"id": "4",
+		"title": "Kasa",
+		"cover": "https://i.imgur.com/PbX0ndt.png",
+		"pictures": [
+			"https://i.imgur.com/ZRDFiNM.jpg",
+			"https://i.imgur.com/R2tpq9q.jpg",
+			"https://i.imgur.com/GfLNLSp.jpg",
+			"https://i.imgur.com/XVikyht.jpg",
+			"https://i.imgur.com/p2BCgTc.jpg",
+			"https://i.imgur.com/RfbPnlp.jpg",
+			"https://i.imgur.com/Yv27oE5.jpg",
+			"https://i.imgur.com/2ucX0uR.jpg",
+			"https://i.imgur.com/VvFSESR.jpg",
+			"https://i.imgur.com/GoeN9tA.jpg",
+			"https://i.imgur.com/KrwQxnP.jpg"
+		],
+		"description": [
+			"Le sixième projet faisait intervenir React et SCSS pour la création de l'interface du site Kasa, une plateforme web dédiée à la location d'appartements entre particuliers.",
+			"Les tâches devant être effectuées peuvent être résumées en trois points clés : la création d'un système de routage, la mise en place de composants pour la réutilisation, et l'utilisation d'animations pour les collapses.",
+			"Ce projet de la formation fournissait une maquette Figma comme guide à suivre pour développer les versions bureau et mobile du site web.",
+			"Il comprenait des étapes complexes et demandait un travail très minutieux. J'ai mis en place une organisation détaillée et une planification des tâches qui m'ont permis de mener le projet à bien. Certaines situations ponctuelles ont cependant nécessité plus de temps que prévu."
+		],
+		"subtitle": "Création d'une application web de location immobilière avec React",
+		"skills": [
+			"Mettre en œuvre des animations CSS",
+			"Développer une interface web avec Sass",
+			"Configurer la navigation entre les pages de l'application avec React Router",
+			"Développer des éléments de l'interface d'un site web grâce à des composants React",
+			"Initialiser une application avec Create React App"
+		],
+		"tags": [
+			"React",
+			"Github"
+		]
+	},
+	{
+		"id": "5",
+		"title": "Mon Vieux Grimoire",
+		"cover": "https://i.imgur.com/8TJNl0s.png",
+		"pictures": [
+			"https://i.imgur.com/kp0LpZO.jpg",
+			"https://i.imgur.com/psFILDP.jpg",
+			"https://i.imgur.com/yuWG1b1.jpg",
+			"https://i.imgur.com/byuaKQX.jpg",
+			"https://i.imgur.com/zgI3tio.jpg",
+			"https://i.imgur.com/mjVbnap.jpg"
+		],
+		"description": [
+			"Le septième projet d'OpenClassrooms consistait à créer le backend de Mon Vieux Grimoire, une plateforme web de notation de livres.",
+			"Les principales étapes comprenaient la mise en place d'une application Express, la configuration d'une base de données MongoDB, la création de modèles, de middlewares et de routes pour les livres, un système d'authentification, une réorganisation du code avec des nouvelles routes et CRUD, et enfin, le déploiement des dernières fonctionnalités, telles que l'optimisation des images et l'affichage des trois meilleurs livres.",
+			"L'objectif était de développer le serveur pour permettre aux utilisateurs de noter et de partager des livres en toute sécurité.",
+			"L'application rigoureuse des apprentissages du cours de backend s'est révélée d'une cruciale tout au long du projet."
+		],
+		"subtitle": "Développement du back-end d'un site de notation de livres",
+		"skills": [
+			"Implémenter un modèle logique de données conformément à la réglementation",
+			"Mettre en œuvre des opérations CRUD de manière sécurisée",
+			"Stocker des données de manière sécurisée"
+		],
+		"tags": [
+			"Node.js",
+			"Mongo DB "
+		]
+	}
+]
