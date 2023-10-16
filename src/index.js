@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import FicheProjet from './pages/FicheProjet';
 import NotFound from './pages/NotFound';
@@ -17,7 +17,7 @@ root.render (
     <Router>
       <Header />
       <Routes>
-        <Route path={["/", "/Portfolio"]} element= {<Home/>}/>
+        <Route path="/" element= {<Home/>}/>
         <Route path="/ficheprojets/:id" element= {<FicheProjet/>}/>
         <Route path="/about" element= {<About/>}/>
         <Route path="/contact" element= {<Contact/>}/>
