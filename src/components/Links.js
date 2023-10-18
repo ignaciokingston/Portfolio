@@ -11,7 +11,7 @@ const Links = ({ projetsData }) => {
             {link.text}
           </a>
         ))}{' '}
-        pour consulter le code.
+        pour consulter le code
       </p>
     </div>
   );
