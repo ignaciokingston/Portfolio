@@ -15,11 +15,12 @@
 			"https://i.imgur.com/Y3NZbr6.jpg"
 		],
 		"description": [
-			"Ce deuxième projet de la formation d'OpenClassrooms avait pour objectif de recréer la page d'accueil de l'agence de voyages Booki en utilisant les langages HTML et CSS pour les versions desktop, tablette et mobile.",
-			"En me basant sur la maquette Figma, j'ai commencé par diviser les différentes parties qui composent le site web, puis j'ai créé le code étape par étape de manière à ce qu'il s'adapte fidèlement aux modèles fournis.",
-			"Il est également important de noter que c'était ma première expérience avec d'autres outils tels que VS Code, Git et Github."
+			"Ce deuxième projet de la formation d’OpenClassrooms avait pour objectif de recréer la page d’accueil de l’agence de voyages Booki en utilisant les langages HTML et CSS pour les versions desktop, tablette et mobile.",
+			"En me basant sur la maquette Figma, j’ai commencé par diviser les différentes parties qui composent le site web, puis j’ai créé le code étape par étape de manière à ce qu’il s’adapte fidèlement aux modèles fournis.",
+			"J’ai dû faire face à un problème récurrent lors de ce projet : le contrôle de la disposition des éléments dans l’espace, c’est-à-dire l’utilisation des propriétés margin et flexbox. J’ai pu copier la maquette et mieux comprendre ces outils grâce à une bonne relecture du cours HTML et CSS et en visionnant quelques tutoriels sur YouTube.",
+			"J’ai aussi eu l’occasion de me familiariser avec certains outils comme VS Code, Git et Github."
 		],
-		"subtitle": "Création de la page d'accueil d'une agence de voyage avec HTML et CSS",
+		"subtitle": "Création de la page d’accueil d’une agence de voyage avec HTML et CSS",
 		"skills": [
 			"Implémenter une interface responsive avec HTML et CSS",
 			"Intégrer du contenu conformément à une maquette avec HTML et CSS",
@@ -30,6 +31,12 @@
 			"HTML",
 			"CSS",
 			"Github"
+		],
+		"githubLinks": [
+			{
+			  "text": "cliquer ici",
+			  "url": "https://github.com/ignaciokingston/Openclassroomsproject2"
+			}
 		]
 	},
 	{
@@ -44,11 +51,11 @@
 			"https://i.imgur.com/Nz6XhcW.jpg"
 		],
 		"description": [
-			"L'objectif du troisième projet de la formation d'OpenClassrooms était de créer le site web dynamique de l'architecte d'intérieur Sophie Bleuel en utilisant les langages HTML, CSS et Javascript.",
-			"Une fois de plus, en me basant sur la maquette Figma, j'ai dû développer la page de présentation des travaux de l'architecte, ainsi que la page de connexion de l'administrateur du site et une modale permettant de visualiser, ajouter et supprimer de nouveaux projets de l’architecte.",
-			"Il était particulièrement important de prêter attention aux instructions fournies par l'API pour accomplir les différentes opérations requises."
+			"L’objectif du troisième projet de la formation était de créer le site web dynamique de l’architecte d’intérieur Sophie Bleuel en utilisant les langages HTML, CSS et Javascript.",
+			"En me basant sur la maquette Figma, j’ai développé la page de présentation des travaux de l’architecte, ainsi que la page de connexion de l’administrateur du site et une modale permettant de visualiser, ajouter et supprimer de nouveaux projets de l’architecte.",
+			"Le principal problème auquel j’ai dû faire face durant ce projet concernait la communication avec l’API, que ce soit pour la connexion ou pour la publication de nouveaux travaux de l’architecte. Après de nombreuses tentatives infructueuses, j’ai compris qu’il était important d’examiner minutieusement les instructions fournies par l’API pour accomplir les différentes opérations requises."
 		],
-		"subtitle": "Création d'une page web avec Javascript",
+		"subtitle": "Création d’une page web avec Javascript",
 		"skills": [
 			"Gérer les événements utilisateurs avec JavaScript",
 			"Manipuler les éléments du DOM avec JavaScript",
@@ -59,6 +66,12 @@
 			"CSS",
 			"Javascript",
 			"Github"
+		],
+		"githubLinks": [
+			{
+			  "text": "cliquer ici",
+			  "url": "https://github.com/ignaciokingston/OpenclassroomProjet3.1"
+			}
 		]
 	},
 	{
@@ -75,12 +88,13 @@
 			"https://i.imgur.com/yZ1m66x.jpg"
 		],
 		"description": [
-			"Le cinquième projet de la formation d'OpenClassrooms consistait à optimiser le site web de la photographe Nina Carducci. Les modifications apportées peuvent être résumées en deux axes principaux : d'une part, l'amélioration des performances, du référencement (SEO) et de l'accessibilité, et d'autre part, le débogage des fonctions.",
-			"Le premier axe comprenait la réorganisation de l'architecture sémantique du code, la compression, l'adaptation à différentes échelles et l'ajout de titres et de descriptions aux images, le réglage du contraste et l'adoption d'une langue pour le site web.",
-			"Le deuxième axe consistait à corriger la navigation dans la modale de la galerie de photos et l'affichage des catégories de filtres sélectionnées.",
-			"Ce projet, qui impliquait la rédaction d'un rapport d'intervention, m'a non seulement donné l'occasion de découvrir de nouveaux outils tels que Lighthouse, Wave et Google Rich Snippets, mais aussi d'obtenir un aperçu des relations avec un client."
+			"Le cinquième projet de la formation d’OpenClassrooms consistait à optimiser le site web de la photographe Nina Carducci. Les modifications apportées peuvent être résumées en deux axes principaux : d’une part, l’amélioration des performances, du référencement (SEO) et de l’accessibilité, et d’autre part, le débogage des fonctions.",
+			"Le premier axe comprenait la réorganisation de l’architecture sémantique du code, la compression, l’adaptation à différentes échelles et l’ajout de titres et de descriptions aux images, le réglage du contraste et l’adoption d’une langue pour le site web.",
+			"Le deuxième axe consistait à corriger la navigation dans la modale de la galerie de photos et l’affichage des catégories de filtres sélectionnées.",
+			"Ce projet, qui impliquait la rédaction d’un rapport d’intervention, m’a non seulement donné l’occasion de découvrir de nouveaux outils tels que Lighthouse, Wave et Google Rich Snippets, mais aussi d’obtenir un aperçu des relations avec un client.",
+			"Le plus grand problème que ce projet a présenté était la mise en place des données enrichies, ce qui a pris quelques jours en raison d’une mauvaise compréhension de la manière dont fonctionnait Schema. Mon mentor m’a beaucoup aidé en me guidant vers des indices pour trouver la solution."
 		],
-		"subtitle": "Débug et optimisation d'un site de photographe",
+		"subtitle": "Débug et optimisation d’un site de photographe",
 		"skills": [
 			"Optimiser les performances d’un site web",
 			"Débugger un site web grâce aux Chrome DevTools",
@@ -91,6 +105,12 @@
 			"SEO",
 			"Lighthouse",
 			"Wave"
+		],
+		"githubLinks": [
+			{
+			  "text": "cliquer ici",
+			  "url": "https://github.com/ignaciokingston/Openclassrooms-Projet-5.0"
+			}
 		]
 	},
 	{
@@ -111,22 +131,30 @@
 			"https://i.imgur.com/KrwQxnP.jpg"
 		],
 		"description": [
-			"Le sixième projet faisait intervenir React et SCSS pour la création de l'interface du site Kasa, une plateforme web dédiée à la location d'appartements entre particuliers.",
-			"Les tâches devant être effectuées peuvent être résumées en trois points clés : la création d'un système de routage, la mise en place de composants pour la réutilisation, et l'utilisation d'animations pour les collapses.",
-			"Ce projet de la formation fournissait une maquette Figma comme guide à suivre pour développer les versions bureau et mobile du site web.",
-			"Il comprenait des étapes complexes et demandait un travail très minutieux. J'ai mis en place une organisation détaillée et une planification des tâches qui m'ont permis de mener le projet à bien. Certaines situations ponctuelles ont cependant nécessité plus de temps que prévu."
+			"Le sixième projet de la formation faisait intervenir React et SCSS pour la création de l’interface du site Kasa, une plateforme web dédiée à la location d’appartements entre particuliers.",
+			"Les tâches devant être effectuées peuvent être résumées en trois points clés : la création d’un système de routage, la mise en place de composants pour la réutilisation, et l’utilisation d’animations pour les collapses.",
+			"Ce projet fournissait une maquette Figma comme guide à suivre pour développer les versions bureau et mobile du site web.",
+			"Il comprenait des étapes complexes et demandait un travail très minutieux. J’ai mis en place une organisation détaillée et une planification des tâches qui m’ont permis de mener le projet à bien.", 
+			"Certaines situations ponctuelles ont cependant nécessité plus de temps que prévu, comme la mise en place des animations : une erreur d’espacement entre la propriété et l’unité entre parenthèses empêchait le bon fonctionnement de la rotation."
 		],
-		"subtitle": "Création d'une application web de location immobilière avec React",
+		"subtitle": "Création d’une application web de location immobilière avec React",
 		"skills": [
 			"Mettre en œuvre des animations CSS",
 			"Développer une interface web avec Sass",
-			"Configurer la navigation entre les pages de l'application avec React Router",
-			"Développer des éléments de l'interface d'un site web grâce à des composants React",
+			"Configurer la navigation entre les pages de l’application avec React Router",
+			"Développer des éléments de l’interface d’un site web grâce à des composants React",
 			"Initialiser une application avec Create React App"
 		],
 		"tags": [
 			"React",
+			"Sass",
 			"Github"
+		],
+		"githubLinks": [
+			{
+			  "text": "cliquer ici",
+			  "url": "https://github.com/ignaciokingston/projet-kasa"
+			}
 		]
 	},
 	{
@@ -142,12 +170,13 @@
 			"https://i.imgur.com/mjVbnap.jpg"
 		],
 		"description": [
-			"Le septième projet d'OpenClassrooms consistait à créer le backend de Mon Vieux Grimoire, une plateforme web de notation de livres.",
-			"Les principales étapes comprenaient la mise en place d'une application Express, la configuration d'une base de données MongoDB, la création de modèles, de middlewares et de routes pour les livres, un système d'authentification, une réorganisation du code avec des nouvelles routes et CRUD, et enfin, le déploiement des dernières fonctionnalités, telles que l'optimisation des images et l'affichage des trois meilleurs livres.",
-			"L'objectif était de développer le serveur pour permettre aux utilisateurs de noter et de partager des livres en toute sécurité.",
-			"L'application rigoureuse des apprentissages du cours de backend s'est révélée d'une cruciale tout au long du projet."
+			"Le septième projet d’OpenClassrooms consistait à créer le backend de Mon Vieux Grimoire, une plateforme web de notation de livres.",
+			"Les principales étapes comprenaient la mise en place d’une application Express, la configuration d’une base de données MongoDB, la création de modèles, de middlewares et de routes pour les livres, un système d’authentification, une réorganisation du code avec des nouvelles routes et CRUD, et enfin, le déploiement des dernières fonctionnalités, telles que l’optimisation des images et l’affichage des trois meilleurs livres.",
+			"L’objectif était de développer le serveur pour permettre aux utilisateurs de noter et de partager des livres en toute sécurité.",
+			"L’application rigoureuse des apprentissages du cours de backend s’est révélée d’une importance cruciale tout au long du projet.",
+			"La mise en place de Sharp a certainement été le plus grand obstacle rencontré lors du développement du projet, en particulier en ce qui concerne la sauvegarde de l’image. Comme dans le cinquième projet, mon mentor m’a guidé vers la solution. Il s’agissait de séparer le middleware Sharp dans un fichier distinct et de ne pas l’intégrer directement dans la fonction de création de livres."
 		],
-		"subtitle": "Développement du back-end d'un site de notation de livres",
+		"subtitle": "Développement du back-end d’un site de notation de livres",
 		"skills": [
 			"Implémenter un modèle logique de données conformément à la réglementation",
 			"Mettre en œuvre des opérations CRUD de manière sécurisée",
@@ -156,6 +185,12 @@
 		"tags": [
 			"Node.js",
 			"Mongo DB "
+		],
+		"githubLinks": [
+			{
+			  "text": "cliquer ici",
+			  "url": "https://github.com/ignaciokingston/Projet-Backend"
+			}
 		]
 	}
 ]

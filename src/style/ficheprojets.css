@@ -202,6 +202,21 @@ tags, description et compétences)  */
   }
 }
 
+/*links*/
+.links {
+  color: #1b2896;
+}
+.links p, .links a {
+  font-size: 18px;
+}
+@media (max-width: 767.98px) {
+  .links p, .links a {
+    font-size: 14px;
+    width: 90%;
+    padding: 5px 0 5px 0;
+  }
+}
+
 /*tags*/
 .tags {
   color: white;

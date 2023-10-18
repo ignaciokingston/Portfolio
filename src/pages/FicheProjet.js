@@ -4,6 +4,7 @@ import Slideshow from '../components/Slideshow';
 import Title from '../components/Title';
 import Tags from '../components/Tags';
 import Collapse from '../components/Collapse';
+import Links from '../components/Links';
 import projetsData from '../projets.json';
 import '../style/ficheprojets.css';
 
@@ -22,6 +23,9 @@ function FicheProjet() {
        <div className='ficheprojet'>
           <div className='ficheprojet__title'>
           <Title title={projet.title} subtitle={projet.subtitle}/>
+          </div>
+          <div className='ficheprojet__link'>
+          <Links projetsData={projet} /> 
           </div>
           <div className='ficheprojet__tags'>
           <Tags tags={projet.tags} />
