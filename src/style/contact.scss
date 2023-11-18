@@ -16,8 +16,8 @@ $main-color: #1b2896;
     &__title {
         text-align: center;
         font-size: 48px;
+        font-weight: 400;
         color: $main-color;
-        font-weight: lighter;
         padding-bottom: 25px;
 
         @media (max-width: 767.98px) {
@@ -28,6 +28,7 @@ $main-color: #1b2896;
     &__text  {
         text-align: center;
         color: $main-color;
+        line-height: 2;
         @media (max-width: 767.98px) {
             text-align: center;
         }    

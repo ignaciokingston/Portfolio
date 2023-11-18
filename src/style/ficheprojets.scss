@@ -181,7 +181,7 @@ $text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     color: $main-color;
     &__title {
         font-size: 36px;
-        font-weight: 500;
+        font-weight: bold;
         margin:0;
 
         @media (max-width: 767.98px) {
@@ -192,6 +192,7 @@ $text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     }
     &__subtitle {
         font-size: 18px;
+        font-weight: bold;
 
         @media (max-width: 767.98px) {
             font-size: 14px;
@@ -206,7 +207,8 @@ $text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 .links {
     color: $main-color;
     & p, a {
-        font-size: 18px;    
+        font-size: 18px; 
+        font-weight: bold;   
 
         @media (max-width: 767.98px) {
             font-size: 14px;

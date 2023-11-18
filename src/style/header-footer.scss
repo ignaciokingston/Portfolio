@@ -9,7 +9,7 @@ $text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 /*Body général*/
 
 *{
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Roboto', sans-serif;
     font-size: 24px;
     @media (max-width: 767.98px) {
         font-size: 14px;
@@ -22,7 +22,6 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: 0;  
-    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -90,7 +89,8 @@ header {
             }
 
             a:hover {
-                border-bottom: 2px solid $main-color;
+                font-weight: bold;
+                text-shadow: $text-shadow;
             }  
 }
 

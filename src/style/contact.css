@@ -8,8 +8,8 @@
 .contact__title {
   text-align: center;
   font-size: 48px;
+  font-weight: 400;
   color: #1b2896;
-  font-weight: lighter;
   padding-bottom: 25px;
 }
 @media (max-width: 767.98px) {
@@ -21,6 +21,7 @@
 .contact__text {
   text-align: center;
   color: #1b2896;
+  line-height: 2;
 }
 @media (max-width: 767.98px) {
   .contact__text {

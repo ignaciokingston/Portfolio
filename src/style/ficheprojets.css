@@ -181,7 +181,7 @@ tags, description et compétences)  */
 }
 .title__title {
   font-size: 36px;
-  font-weight: 500;
+  font-weight: bold;
   margin: 0;
 }
 @media (max-width: 767.98px) {
@@ -193,6 +193,7 @@ tags, description et compétences)  */
 }
 .title__subtitle {
   font-size: 18px;
+  font-weight: bold;
 }
 @media (max-width: 767.98px) {
   .title__subtitle {
@@ -208,6 +209,7 @@ tags, description et compétences)  */
 }
 .links p, .links a {
   font-size: 18px;
+  font-weight: bold;
 }
 @media (max-width: 767.98px) {
   .links p, .links a {
