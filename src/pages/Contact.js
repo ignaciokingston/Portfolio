@@ -15,7 +15,7 @@ return (
           Si vous souhaitez échanger sur un projet, n'hésitez pas à me contacter directement par mail à kingston.ignacio2@gmail.com
         </p>
         <p>
-        Vous pouvez aussi consulter ma page <a href="https://www.linkedin.com/in/ignacio-kingston-49500b204/">LinkedIn.</a>
+        Vous pouvez aussi consulter ma page <a href="https://www.linkedin.com/in/ignacio-kingston/">LinkedIn.</a>
         </p>
         <p>
         Merci de votre visite et à bientôt !
